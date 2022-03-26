@@ -4,7 +4,7 @@
 2. Run Apache + Mysql sa xampp
 3. Create ka ng database, yung name dapat facebook or kahit ano gusto niyo basta consistent
 4. CREATE database facebook;
-5. Punta ka sa backend na folder tapos type `npm install`
+5. Punta ka sa backend na folder tapos type `npm i`
 6. Create ka ng .env file dito sa backend folder (Make sure naka cd backend ka)
    Note: Pwede mo rin i copy paste yung .env.sample tas ichange yung name sa .env
 7. Ilagay mo to sa .env
@@ -15,10 +15,11 @@ DATABASE_URL="mysql://username:password@localhost:3306/facebook"
 
 Wag mo kalimutan iedit yung username,password,host ng mysql mo (IMPORTANT! kung nagkakaroon ka ng access denied, gawa ka nalang ng new account sa mysql)
 
-8. `npm run dev`
-9. `npx prisma migrate dev --name init `(i run mo tong command para sa migration ng database, yung init kahit ano lang yan depende sa gusto mo iname sa migration)
-10. `npx prisma db seed`
-11. Good to go kana
+8. `npm i`
+9. `npm run dev`
+10. `npx prisma migrate dev --name init `(i run mo tong command para sa migration ng database, yung init kahit ano lang yan depende sa gusto mo iname sa migration)
+11. `npx prisma db seed`
+12. Good to go kana
 
 # ROUTES
 
