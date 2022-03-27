@@ -16,10 +16,11 @@ DATABASE_URL="mysql://username:password@localhost:3306/facebook"
 Wag mo kalimutan iedit yung username,password,host ng mysql mo (IMPORTANT! kung nagkakaroon ka ng access denied, gawa ka nalang ng new account sa mysql)
 
 8. `npm i`
-9. `npm run start`
-10. `npx prisma migrate dev --name init `(i run mo tong command para sa migration ng database, yung init kahit ano lang yan depende sa gusto mo iname sa migration)
-11. `npx prisma db seed`
-12. Good to go kana
+9. `npx prisma generate`
+10. `npm run start`
+11. `npx prisma migrate dev --name init `(i run mo tong command para sa migration ng database, yung init kahit ano lang yan depende sa gusto mo iname sa migration)
+12. `npx prisma db seed`
+13. Good to go kana
 
 # ROUTES
 
